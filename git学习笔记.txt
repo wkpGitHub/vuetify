@@ -1,0 +1,19 @@
+1.下载安装git
+
+2.在本台电脑上，设置自己的git账号名和邮箱路径
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+3.初始化本地项目
+git init
+
+4.添加提交文件
+git add file1.txt
+git add file2.txt file3.txt
+git commit -m "add 3 files."
+
+5.使用git查看当前文件夹下那些文件改动了
+git status
+
+6.查看文件修改内容
+git diff readme.txt 
