@@ -35,3 +35,13 @@ git rm test.txt
 rm 'test.txt'
 git commit -m "remove test.txt"
 
+12.添加远程库
+1)第一次提交
+git remote rm origin
+git remote add origin https://github.com/wkpGitHub/vuetify.git
+git push -u origin master
+
+2）以后再次提交
+git push origin master
+
+
