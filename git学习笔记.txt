@@ -44,4 +44,7 @@ git push -u origin master
 2）以后再次提交
 git push origin master
 
+13.下载代码
+git clone https://github.com/wkpGitHub/vuetify.git
+
 
