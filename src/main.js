@@ -10,8 +10,12 @@ import router from './router'
 Vue.config.productionTip = false
 Vue.use(Vuetify)
 
+
+// 这是测试加入的子模块修改
+
 new Vue({
   store,
+
   created() {
     console.log('render fun')
   },
