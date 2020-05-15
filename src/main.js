@@ -11,7 +11,7 @@ Vue.config.productionTip = false
 Vue.use(Vuetify)
 
 
-// 这是测试加入的子模块修改
+// 这是测试加入的子模块修改，父模块不提交子模块的修改记录
 
 new Vue({
   store,
