@@ -12,7 +12,6 @@ Vue.use(Vuetify)
 
 new Vue({
   store,
-
   created() {
     console.log('render fun')
   },
